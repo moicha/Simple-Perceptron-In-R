@@ -1,0 +1,10 @@
+n <- 50
+data_gen <- function(n){}
+x <- matrix(
+    runif(2*n,0,1),
+     ncol=2,byrow=T
+ )
+ y <- rbinom(n, 1, 0.55)
+ x <- cbind(x,y)
+ colnames(x) <- c("a","b","c")
+ }
